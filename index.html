@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CCD COFFEE</title>
+	<style>
+		table
+		{
+			padding: 10px 20px 30px 20px;
+		}
+		body
+		{
+			background-image: url(ccd.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		table
+		{
+			border:10px solid cyan;
+			
+			border-radius:50px;
+		}
+		label
+		{
+			color: pink;
+			background-color: green;
+		}
+		input[type="radio"],
+		input[type="number"],
+		input[type="text"],
+		input[type="email"],
+		input[type="submit"],
+		input[type="reset"]
+		{
+			background-color: black;
+			color: white;
+
+		}
+		select
+		{
+		background-color: black;
+		color: red;
+		}
+	</style>
+</head>
+<body>
+	<div align="center" id="rash">
+		<form>
+			<h1 style="background-color: white; display: inline-block;">HOT COFFEE Hut</h1>
+			<br>
+			<h3 style="background-color: white; display: inline-block;">Order Form</h3>
+			<br>
+			<table>
+				<tr>
+					<td><label>Coffee</label></td>
+					<td><select>
+						<option>...Select coffee...</option>
+						<option>CAPPUCCINO</option>
+						<option>COLD BREW COFFEE</option>
+						<option>DOUBLE ESPRESSO</option>
+						<option>IRISH COFFEE</option>
+					</select></td>
+
+				</tr>
+				<tr>
+					<td rowspan="2">
+						<label>Type</label>
+					</td>
+					<td ><input type="radio" name="r1">Regular</td>
+					<tr>
+						<td><input type="radio" name="r1">Decaffinated</td>
+				</tr>
+			</tr>
+
+				<tr>
+					<td><label>Quantity(in pounds)</label></td>
+					<td><input type="number"></td>
+				</tr>
+				<tr>
+					<td><label>Name</label></td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>E-mail address</label></td>
+					<td><input type="email"></td>
+					</tr>
+					<tr>
+						<td>
+							<label>Telephone</label>
+						</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><label>Address</label></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label>City</label></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label>State</label></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label>Zip Code</label></td>
+						<td><input type="number"></td>
+					</tr>
+					<!--<table align="center" id="submit">-->
+						<tr>
+							<td><input type="submit"></td>
+							<td><input type="reset"></td>
+						</tr>
+					<!--</table>-->
+			</table>
+		</form>
+	</div>
+</body>
+</html>
